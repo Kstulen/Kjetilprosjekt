@@ -1,6 +1,6 @@
 package algorithms
 
-// Tips hentet fra https://en.wikipedia.org/wiki/Bubble_sort
+
 func Bubble_sort_modified(list []int) {
 	n := len(list)
 	swapped := true
@@ -19,7 +19,7 @@ func Bubble_sort_modified(list []int) {
 }
 
 // Implementering av Bubble_sort algoritmen
-func BubbleSort(list []int) {
+func Bubble_Sort(list []int) {
 	// find the length of list n
 	n := len(list)
 	for i := 0; i < n; i++ {
