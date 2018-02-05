@@ -1,16 +1,16 @@
 package algorithms
 
 // Tips hentet fra https://en.wikipedia.org/wiki/Bubble_sort
-func Bubble_sort_modified(oblig1liste []int) {
-	n := len(oblig1liste)
+func Bubble_sort_modified(list []int) {
+	n := len(list)
 	swapped := true
 
 	for swapped {
 		swapped = false
 		for i := 1; i < n-1; i++ {
-			if oblig1liste[i-1] > oblig1liste[i] {
+			if list[i-1] > list[i] {
 				// swap values using Go's tuple assignment
-				oblig1liste [i], oblig1liste[i-1] = oblig1liste [i-1], oblig1liste[i]
+				list [i], list[i-1] = list [i-1], list[i]
 				swapped = true
 			}
 		}
