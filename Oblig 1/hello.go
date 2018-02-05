@@ -1,6 +1,6 @@
 // You can edit this code!
 // Click here and start typing.
-package main
+package Oblig_1
 
 import "fmt"
 
